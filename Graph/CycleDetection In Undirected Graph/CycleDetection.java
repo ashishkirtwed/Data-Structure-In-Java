@@ -71,6 +71,7 @@ class CycleDetection{
 		int source =0;
 		
 		DFSTraversal(adj,source);
+		sc.close();
 	}
 }
 			

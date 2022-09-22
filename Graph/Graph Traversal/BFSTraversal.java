@@ -57,6 +57,7 @@ class BFSTraversal{
 		}
 		g.printGraph(adj);
 		BFS(adj);
+		sc.close();
 	}
 }
 			

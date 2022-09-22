@@ -36,6 +36,7 @@ class InbuiltStack{
 		int n=stk.size(); //to find size of the stack.
 		for(int i=0;i<n;i++)
 			System.out.print(stk.pop());
+		sc.close();
 			
 	}
 }

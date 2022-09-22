@@ -36,6 +36,7 @@ class GraphImplementation{
 				break;
 		}
 		g.printGraph(adj);
+		sc.close();
 	}
 }
 			

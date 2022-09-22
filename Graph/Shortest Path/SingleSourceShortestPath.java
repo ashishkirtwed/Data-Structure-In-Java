@@ -72,6 +72,7 @@ class SingleSourceShortestPath{
 		int dest =sc.nextInt();
 		g.printGraph(adj);
 		shortestPath(adj,dest);
+		sc.close();
 	}
 }
 			

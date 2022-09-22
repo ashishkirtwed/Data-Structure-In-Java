@@ -56,6 +56,7 @@ class DFSTraversal{
 		int source =0;
 		System.out.println("Depth First Search Traversal...");
 		DFSTraversal(adj,source);
+		sc.close();
 	}
 }
 			

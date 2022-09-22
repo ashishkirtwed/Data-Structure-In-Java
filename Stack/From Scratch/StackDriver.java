@@ -74,6 +74,7 @@ class StackDriver{
 			if(option !=ans){
 				break;
 			}
+			sc.close();
 		}
 	}
 }
