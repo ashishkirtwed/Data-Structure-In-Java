@@ -1,10 +1,18 @@
 /*
  * Write a function to print spiral order traversal of a tree. For below tree, function should print 1, 2, 3, 4, 5, 6, 7
+ * tree 1
  *                                      1                                     
  *                                2            3 
  *                           7         6  5          4
+ * Tree 2
+ *                                      1
+ *                                2            3
+ *                                       4           5
+ *                                            7 6 
  * 
- */
+ * 
+ * 
+ * /
 /*
  * Logic : using 2 stacks 
  * Here I am using 2 stack mechanism. 
@@ -20,6 +28,8 @@
  *         into stk1 
  * step 5: Repeat step 3 and 4 (internal while loop)
  * step 6: Repeat step 2,3 and 4 (external while loop)
+ * 
+ * Time Complexity : O(n),Space Complexity: O(n)
  */
 package TreePractice;
 
