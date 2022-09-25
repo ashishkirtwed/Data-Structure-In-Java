@@ -32,8 +32,6 @@
  * Time Complexity : O(n),Space Complexity: O(n)
  */
 package TreePractice.Question1;
-
-import java.util.ArrayList;
 import java.util.Stack;
 
 class Node {
@@ -55,7 +53,6 @@ class SpiralPrint{
          Stack<Node> stk1 = new Stack<Node>();
          Stack<Node> stk2 = new Stack<Node>();
          stk1.push(root);
-         ArrayList<Node> arrayList = new ArrayList<>();
          while(!stk1.isEmpty() || !stk2.isEmpty()){
             while(!stk1.isEmpty()){
                 Node temp = stk1.pop();
