@@ -31,7 +31,7 @@
  * 
  * Time Complexity : O(n),Space Complexity: O(n)
  */
-package TreePractice;
+package TreePractice.Question1;
 
 import java.util.ArrayList;
 import java.util.Stack;
